@@ -5,6 +5,9 @@ import App from './App'
 import router from './router'
 import Mint from 'mint-ui'
 import 'mint-ui/lib/style.css'
+
+import resizeRoot from './util/retina.js'
+resizeRoot()
 Vue.config.productionTip = false
 Vue.use(Mint)
 /* eslint-disable no-new */
