@@ -7,9 +7,11 @@ import Mint from 'mint-ui'
 import 'mint-ui/lib/style.css'
 
 import resizeRoot from './util/retina.js'
+import  VueResource  from 'vue-resource'
 resizeRoot()
 Vue.config.productionTip = false
 Vue.use(Mint)
+Vue.use(VueResource) 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
